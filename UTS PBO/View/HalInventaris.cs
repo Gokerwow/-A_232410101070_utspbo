@@ -16,6 +16,7 @@ namespace UTS_PBO.View
         public HalInventaris()
         {
             InitializeComponent();
+            this.Load += HalInventaris_Load;
         }
 
         private void HalInventaris_Load(object sender, EventArgs e)
