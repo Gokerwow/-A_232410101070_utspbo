@@ -16,6 +16,7 @@ namespace UTS_PBO.View
         public DashboardAdmin()
         {
             InitializeComponent();
+            this.Load += DashboardAdmin_Load;
         }
         private void DashboardAdmin_Load(object sender, EventArgs e)
         {
